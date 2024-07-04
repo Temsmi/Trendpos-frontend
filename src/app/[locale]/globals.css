@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clipPath {
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 6.6% 100%);
+}
+
+.Toastify__close-button--light {
+    @apply !self-center !text-current !opacity-100;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+td > div {
+    @apply flex h-full items-center py-2 pr-4 text-sm text-[#1F2132];
+}
+
+.quill > * {
+    border-color: inherit !important;
+    color: inherit !important;
+}
+
+.quill > .ql-toolbar {
+    /* border radius of the toolbar */
+    border-radius: 5px 5px 0 0;
+}
+
+.quill > .ql-container {
+    /* border radius of the container and for font size*/
+    font-size: inherit;
+    border-radius: 0 0 5px 5px;
+}
+
+.ql-toolbar.ql-snow .ql-picker-label {
+    color: inherit !important;
+    opacity: 0.76;
+}
+
+.ql-snow .ql-picker {
+    color: inherit !important;
+}
+
+.quill > .ql-container > .ql-editor.ql-blank::before {
+    /* for placeholder */
+    color: inherit;
+}
+
+.ql-snow.ql-toolbar button svg {
+    opacity: 0.76;
+    color: currentColor;
+}
+
+.ql-snow .ql-stroke {
+    /* for the border of the editor */
+    stroke: currentColor !important;
+}
+
+.ql-snow .ql-fill {
+    /* for the bg color */
+    fill: currentColor !important;
+}
+
+.ql-picker-item {
+    /* for dropdown */
+    color: #444 !important;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-popup {
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    z-index: 50; /* Adjust as needed */
+  }

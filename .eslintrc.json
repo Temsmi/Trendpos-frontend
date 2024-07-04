@@ -1,0 +1,10 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Additional, per-project rules...
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-console": "off",
+    "import/no-anonymous-default-export": "off",
+    "react-hooks/exhaustive-deps": "off"
+  }
+}
