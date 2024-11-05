@@ -46,7 +46,7 @@ const ShortcutsButton = () => {
           onClick={handleCreateLabelClick}>
             <CreateLabelModal />
           <Icon name='invoice' className='shrink-0 text-[#72748C]' />
-          <p>{t('ask_for_price')}</p>
+          <p>{t('print_label')}</p>
         </Button>
       </div>
       <div className='flex flex-row space-x-3'>
