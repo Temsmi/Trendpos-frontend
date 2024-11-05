@@ -163,6 +163,7 @@ const ProductReturnModal: React.FC = () => {
                         onChange={e => onChange(e.target.value === '' ? '' : Number(e.target.value))}
                       />
                     )}
+        
                   />
                 </div>
               </div>
